@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 @font-face {
   font-family: 'Lato';
   font-style: normal;
@@ -29,6 +24,11 @@
   font-style: normal;
   font-weight: 600;
   src: local("Lato"), url("/font2/fonts/Lato-Semibold.woff2") format("woff2"), url("/font2/fonts/Lato-Semibold.woff") format("woff"), url("/font2/fonts/Lato-Semibold.ttf") format("ttf"), url("/font2/fonts/Lato-Semibold.eot") format("eot");
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -654,7 +654,7 @@ body {
   max-width: 215px;
 }
 
-@media (min-width: 1726px) {
+@media screen and (min-width: 1726px) {
   .container2 {
     max-width: 1920px;
     margin: 0 auto;
@@ -806,7 +806,7 @@ body {
   }
 }
 
-@media (max-width: 1263px) {
+@media screen and (max-width: 1263px) {
   .container {
     max-width: 722px;
     padding-left: 15px;
@@ -970,7 +970,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .logo-360-img {
     display: block;
   }
